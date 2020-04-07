@@ -30,10 +30,9 @@ class CustomFeeder extends Simulation {
     "gameId" -> idNumbers.next(),
     "name" -> ("Game-" + randomString(5)),
     "releaseDate" -> getRandomDate(now, rnd),
-    // TODO: reviewScore, category, rating
-    "reviewScore" -> ???,
-    "category" -> ???,
-    "rating" -> ???
+    "reviewScore" -> rnd.nextInt(100),
+    "category" -> ("Category-" + randomString(6)),
+    "rating" -> ("Rating-" + randomString(4))
   ))
 
   setUp(
