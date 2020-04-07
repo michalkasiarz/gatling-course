@@ -1,8 +1,8 @@
-import io.gatling.core.Predef._
-import io.gatling.http.Predef._
 
 
-class ExtractDataFromResponse extends Simulation {
+
+
+class PrintingResponseBody extends Simulation {
 
   val httpConf = http.baseUrl("http://localhost:8080/app/")
     .header("Accept", "application/json")
@@ -16,10 +16,15 @@ class ExtractDataFromResponse extends Simulation {
     .exec(http("Get all video games")
     .get("videogames")
     .check(jsonPath("$[1].id").saveAs("gameId")))
+    .exec { session => println(session); session}
+
 
     .exec(http("Get specific game")
     .get("videogames/${gameId}")
-    .check(jsonPath("$.name").is("Gran Turismo 3")))
+    .check(jsonPath("$.name").is("Gran Turismo 3"))
+    .check(bodyString.saveAs("responseBody")))
+    // printing response body
+      .exec { session => println(session("responseBody").as[String]); session}
 
   setUp(
     scn.inject(atOnceUsers(1))

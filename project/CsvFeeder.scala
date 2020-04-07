@@ -1,20 +1,19 @@
-import io.gatling.core.Predef._
-import io.gatling.http.Predef._
 
-class CsvFeederToCustom extends Simulation {
+
+class CsvFeeder extends Simulation {
 
   val httpConf = http.baseUrl("http://localhost:8080/app/")
     .header("Accept", "application/json")
 
-  var idNumbers = (1 to 10).iterator
 
-  val customFeeder = Iterator.continually(Map("gameId" -> idNumbers.next()))
+  val csvFeeder = csv("data/gameCsvFile.csv").circular
 
   def getSpecificVideoGame() = {
     repeat(10) {
-      feed(customFeeder)
+      feed(csvFeeder)
         .exec(http("Get specific video game")
           .get("videogames/${gameId}")
+          .check(jsonPath("$.name").is("${gameName}"))
           .check(status.is(200)))
         .pause(1)
     }
@@ -26,5 +25,4 @@ class CsvFeederToCustom extends Simulation {
   setUp(
     scn.inject(atOnceUsers(1))
   ).protocols(httpConf)
-
 }
