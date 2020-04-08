@@ -1,5 +1,3 @@
-package simulations
-
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
@@ -42,9 +40,9 @@ class RuntimeParameters extends Simulation {
   setUp(
     scn.inject(
       nothingFor(5 seconds),
-      rampUsers(1) during (1 second)
+      rampUsers(userCount) during (rampDuration second)
     )
   ).protocols(httpConf)
-    .maxDuration(20 seconds)
+    .maxDuration(testDuration seconds)
 
 }
