@@ -1,0 +1,4 @@
+languag scala
+sudo: false
+
+script: "mvn gatling:test -Dgatling.simulationClass=simulations.RampUsersPerSecLoadSimulation"

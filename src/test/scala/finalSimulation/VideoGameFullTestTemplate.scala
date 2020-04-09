@@ -11,7 +11,8 @@ import scala.util.Random
 
 class VideoGameFullTestTemplate extends Simulation {
 
-  val httpConf = http.baseUrl("http://localhost:8080/app/")
+  // URL changed due to Travis CI testing
+  val httpConf = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
     .header("Accept", "application/json")
 
   // Variables
