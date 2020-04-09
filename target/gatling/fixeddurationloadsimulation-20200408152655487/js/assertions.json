@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.FixedDurationLoadSimulation",
+  "simulationId": "fixeddurationloadsimulation",
+  "start": 1586359615487,
+  "description": "",
+  "scenarios": ["Fixed Duration Load Simulation"],
+  "assertions": [
+
+  ]
+}

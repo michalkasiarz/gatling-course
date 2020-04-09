@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode	checkresponsecode	1586105355398	 	3.3.1
+USER	Get video game db - 3 calls	1	START	1586105357122	1586105357122
+REQUEST	1		Get all video games - 1st call	1586105357157	1586105357209	OK	 
+REQUEST	1		Get specific game	1586105362228	1586105362237	OK	 
+REQUEST	1		Get all video games - 2nd call	1586105367238	1586105367247	OK	 
+USER	Get video game db - 3 calls	1	END	1586105357122	1586105370252

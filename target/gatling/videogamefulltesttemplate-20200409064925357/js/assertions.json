@@ -1,0 +1,10 @@
+{
+  "simulation": "finalSimulation.VideoGameFullTestTemplate",
+  "simulationId": "videogamefulltesttemplate",
+  "start": 1586414965357,
+  "description": "",
+  "scenarios": ["Final scenario"],
+  "assertions": [
+
+  ]
+}

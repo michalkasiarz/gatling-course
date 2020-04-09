@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CodeReuseWithObjects",
+  "simulationId": "codereusewithobjects",
+  "start": 1586174412987,
+  "description": "",
+  "scenarios": ["Code reuse"],
+  "assertions": [
+
+  ]
+}

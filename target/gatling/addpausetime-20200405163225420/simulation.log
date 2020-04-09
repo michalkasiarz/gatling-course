@@ -1,0 +1,6 @@
+RUN	simulations.AddPauseTime	addpausetime	1586104345420	 	3.3.1
+ERROR	Get all video games - 1st call: Failed to build request: url http://localhost:8080:/app/videogames can't be parsed into an Uri: j.l.NumberFormatException: For input string: "8080:" 	1586104347221
+USER	Video Game DB - 3 calls	1	START	1586104347212	1586104347212
+ERROR	Get specific name: Failed to build request: url http://localhost:8080:/app/videogames/1 can't be parsed into an Uri: j.l.NumberFormatException: For input string: "8080:" 	1586104352244
+ERROR	Get all video games - 2nd call: Failed to build request: url http://localhost:8080:/app/videogames can't be parsed into an Uri: j.l.NumberFormatException: For input string: "8080:" 	1586104370474
+USER	Video Game DB - 3 calls	1	END	1586104347212	1586104373481

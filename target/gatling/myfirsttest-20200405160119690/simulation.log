@@ -1,0 +1,4 @@
+RUN	MyFirstTest	myfirsttest	1586102479690	 	3.3.1
+USER	My First Test	1	START	1586102481331	1586102481331
+REQUEST	1		Get All Games	1586102481369	1586102483374	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8888
+USER	My First Test	1	END	1586102481331	1586102483394

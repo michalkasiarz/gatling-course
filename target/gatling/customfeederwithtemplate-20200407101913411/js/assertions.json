@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CustomFeederWithTemplate",
+  "simulationId": "customfeederwithtemplate",
+  "start": 1586254753411,
+  "description": "",
+  "scenarios": ["Post new games"],
+  "assertions": [
+
+  ]
+}

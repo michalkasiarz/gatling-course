@@ -1,0 +1,13 @@
+RUN	simulations.CsvFeeder	csvfeeder	1586176063232	 	3.3.1
+USER	CSV feeder test	1	START	1586176064702	1586176064702
+REQUEST	1		Get specific video game	1586176064758	1586176064804	KO	jsonPath($.name).find.is(Baldurs Gate I), but actually found Resident Evil 4
+REQUEST	1		Get specific video game	1586176065835	1586176065843	KO	jsonPath($.name).find.is(Pillars of Eternity), but actually found Gran Turismo 3
+REQUEST	1		Get specific video game	1586176066845	1586176066851	KO	jsonPath($.name).find.is(Divinity: Original Sin), but actually found Tetris
+REQUEST	1		Get specific video game	1586176067830	1586176067838	KO	jsonPath($.name).find.is(Planescape Torment), but actually found Super Mario 64
+REQUEST	1		Get specific video game	1586176068854	1586176068862	KO	jsonPath($.name).find.is(Baldurs Gate I), but actually found Resident Evil 4
+REQUEST	1		Get specific video game	1586176069860	1586176069867	KO	jsonPath($.name).find.is(Pillars of Eternity), but actually found Gran Turismo 3
+REQUEST	1		Get specific video game	1586176070855	1586176070861	KO	jsonPath($.name).find.is(Divinity: Original Sin), but actually found Tetris
+REQUEST	1		Get specific video game	1586176071877	1586176071883	KO	jsonPath($.name).find.is(Planescape Torment), but actually found Super Mario 64
+REQUEST	1		Get specific video game	1586176072877	1586176072884	KO	jsonPath($.name).find.is(Baldurs Gate I), but actually found Resident Evil 4
+REQUEST	1		Get specific video game	1586176073888	1586176073894	KO	jsonPath($.name).find.is(Pillars of Eternity), but actually found Gran Turismo 3
+USER	CSV feeder test	1	END	1586176064702	1586176074904

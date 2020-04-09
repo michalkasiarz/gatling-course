@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.RuntimeParameters",
+  "simulationId": "runtimeparameters",
+  "start": 1586361558719,
+  "description": "",
+  "scenarios": ["Get all videogames"],
+  "assertions": [
+
+  ]
+}

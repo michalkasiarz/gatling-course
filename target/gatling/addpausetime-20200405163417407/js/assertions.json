@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.AddPauseTime",
+  "simulationId": "addpausetime",
+  "start": 1586104457407,
+  "description": "",
+  "scenarios": ["Video Game DB - 3 calls"],
+  "assertions": [
+
+  ]
+}

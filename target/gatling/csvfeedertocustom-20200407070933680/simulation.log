@@ -1,0 +1,13 @@
+RUN	simulations.CsvFeederToCustom	csvfeedertocustom	1586243373680	 	3.3.1
+USER	CSV feeder test	1	START	1586243375645	1586243375645
+REQUEST	1		Get specific video game	1586243375758	1586243376222	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243377244	1586243377252	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243378260	1586243378268	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243379265	1586243379273	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243380260	1586243380270	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243381291	1586243381304	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243382300	1586243382315	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243383310	1586243383318	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243384320	1586243384331	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+REQUEST	1		Get specific video game	1586243385344	1586243385352	KO	Check validator resolution crashed: No attribute named 'gameName' is defined
+USER	CSV feeder test	1	END	1586243375645	1586243386344

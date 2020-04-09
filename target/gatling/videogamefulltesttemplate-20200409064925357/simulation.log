@@ -1,0 +1,101 @@
+RUN	finalSimulation.VideoGameFullTestTemplate	videogamefulltesttemplate	1586414965357	 	3.3.1
+USER	Final scenario	1	START	1586414972273	1586414972273
+REQUEST	1		Get all video games	1586414972318	1586414972445	OK	 
+REQUEST	1		Post new game	1586414974505	1586414974587	OK	 
+USER	Final scenario	2	START	1586414975273	1586414975273
+REQUEST	2		Get all video games	1586414975274	1586414975295	OK	 
+REQUEST	1		Get last posted game	1586414976575	1586414976586	OK	 
+REQUEST	2		Post new game	1586414977313	1586414977322	OK	 
+USER	Final scenario	3	START	1586414978263	1586414978263
+REQUEST	3		Get all video games	1586414978265	1586414978312	OK	 
+REQUEST	1		Delete last posted game	1586414978604	1586414978618	OK	 
+REQUEST	2		Get last posted game	1586414979335	1586414979347	OK	 
+REQUEST	3		Post new game	1586414980325	1586414980342	OK	 
+REQUEST	1		Get last posted game	1586414980614	1586414980693	KO	jsonPath($.name).find.is(Game-QNGYC), but actually found nothing
+REQUEST	1		Get all video games	1586414980705	1586414980714	OK	 
+REQUEST	2		Delete last posted game	1586414981334	1586414981342	OK	 
+REQUEST	3		Get last posted game	1586414982341	1586414982348	OK	 
+REQUEST	1		Post new game	1586414982712	1586414982721	OK	 
+REQUEST	2		Get last posted game	1586414983342	1586414983382	KO	jsonPath($.name).find.is(Game-IdQSq), but actually found nothing
+REQUEST	2		Get all video games	1586414983385	1586414983400	OK	 
+REQUEST	3		Delete last posted game	1586414984344	1586414984358	OK	 
+REQUEST	1		Get last posted game	1586414984711	1586414984718	OK	 
+REQUEST	2		Post new game	1586414985407	1586414985418	OK	 
+REQUEST	3		Get last posted game	1586414986376	1586414986401	KO	jsonPath($.name).find.is(Game-Irors), but actually found nothing
+REQUEST	3		Get all video games	1586414986403	1586414986412	OK	 
+REQUEST	1		Delete last posted game	1586414986722	1586414986729	OK	 
+REQUEST	2		Get last posted game	1586414987404	1586414987414	OK	 
+REQUEST	3		Post new game	1586414988416	1586414988424	OK	 
+REQUEST	1		Get last posted game	1586414988734	1586414988774	KO	jsonPath($.name).find.is(Game-aljSi), but actually found nothing
+REQUEST	1		Get all video games	1586414988777	1586414988785	OK	 
+REQUEST	2		Delete last posted game	1586414989436	1586414989444	OK	 
+REQUEST	3		Get last posted game	1586414990423	1586414990429	OK	 
+REQUEST	1		Post new game	1586414990774	1586414990782	OK	 
+REQUEST	2		Get last posted game	1586414991431	1586414991456	KO	jsonPath($.name).find.is(Game-MBVzB), but actually found nothing
+REQUEST	2		Get all video games	1586414991458	1586414991466	OK	 
+REQUEST	3		Delete last posted game	1586414992422	1586414992429	OK	 
+REQUEST	1		Get last posted game	1586414992786	1586414992793	OK	 
+REQUEST	2		Post new game	1586414993475	1586414993482	OK	 
+REQUEST	3		Get last posted game	1586414994437	1586414994466	KO	jsonPath($.name).find.is(Game-ZAhgl), but actually found nothing
+REQUEST	3		Get all video games	1586414994467	1586414994475	OK	 
+REQUEST	1		Delete last posted game	1586414994794	1586414994800	OK	 
+REQUEST	2		Get last posted game	1586414995473	1586414995479	OK	 
+REQUEST	3		Post new game	1586414996471	1586414996478	OK	 
+REQUEST	1		Get last posted game	1586414996802	1586414996835	KO	jsonPath($.name).find.is(Game-sCMWD), but actually found nothing
+REQUEST	1		Get all video games	1586414996837	1586414996847	OK	 
+REQUEST	2		Delete last posted game	1586414997482	1586414997490	OK	 
+REQUEST	3		Get last posted game	1586414998476	1586414998482	OK	 
+REQUEST	1		Post new game	1586414998852	1586414998859	OK	 
+REQUEST	2		Get last posted game	1586414999492	1586414999531	KO	jsonPath($.name).find.is(Game-ribJU), but actually found nothing
+REQUEST	2		Get all video games	1586414999536	1586414999548	OK	 
+REQUEST	3		Delete last posted game	1586415000485	1586415000491	OK	 
+REQUEST	1		Get last posted game	1586415000864	1586415000874	OK	 
+REQUEST	2		Post new game	1586415001557	1586415001564	OK	 
+REQUEST	3		Get last posted game	1586415002495	1586415002520	KO	jsonPath($.name).find.is(Game-JMNuW), but actually found nothing
+REQUEST	3		Get all video games	1586415002522	1586415002531	OK	 
+REQUEST	1		Delete last posted game	1586415002875	1586415002884	OK	 
+REQUEST	2		Get last posted game	1586415003552	1586415003565	OK	 
+REQUEST	3		Post new game	1586415004536	1586415004544	OK	 
+REQUEST	1		Get last posted game	1586415004884	1586415004912	KO	jsonPath($.name).find.is(Game-zUslV), but actually found nothing
+REQUEST	1		Get all video games	1586415004913	1586415004921	OK	 
+REQUEST	2		Delete last posted game	1586415005572	1586415005579	OK	 
+REQUEST	3		Get last posted game	1586415006537	1586415006545	OK	 
+REQUEST	1		Post new game	1586415006917	1586415006930	OK	 
+REQUEST	2		Get last posted game	1586415007584	1586415007628	KO	jsonPath($.name).find.is(Game-QxvCf), but actually found nothing
+REQUEST	2		Get all video games	1586415007631	1586415007639	OK	 
+REQUEST	3		Delete last posted game	1586415008544	1586415008550	OK	 
+REQUEST	1		Get last posted game	1586415008934	1586415008941	OK	 
+REQUEST	2		Post new game	1586415009634	1586415009651	OK	 
+REQUEST	3		Get last posted game	1586415010553	1586415010616	KO	jsonPath($.name).find.is(Game-NTJxK), but actually found nothing
+REQUEST	3		Get all video games	1586415010619	1586415010629	OK	 
+REQUEST	1		Delete last posted game	1586415010944	1586415010949	OK	 
+REQUEST	2		Get last posted game	1586415011655	1586415011662	OK	 
+REQUEST	3		Post new game	1586415012632	1586415012643	OK	 
+REQUEST	1		Get last posted game	1586415012941	1586415012962	KO	jsonPath($.name).find.is(Game-mdkiS), but actually found nothing
+REQUEST	1		Get all video games	1586415012964	1586415012972	OK	 
+REQUEST	2		Delete last posted game	1586415013652	1586415013660	OK	 
+REQUEST	3		Get last posted game	1586415014644	1586415014651	OK	 
+REQUEST	1		Post new game	1586415014986	1586415014999	OK	 
+REQUEST	2		Get last posted game	1586415015662	1586415015701	KO	jsonPath($.name).find.is(Game-yBDWK), but actually found nothing
+REQUEST	2		Get all video games	1586415015702	1586415015711	OK	 
+REQUEST	3		Delete last posted game	1586415016645	1586415016650	OK	 
+REQUEST	1		Get last posted game	1586415016984	1586415016991	OK	 
+REQUEST	2		Post new game	1586415017713	1586415017721	OK	 
+REQUEST	3		Get last posted game	1586415018654	1586415018676	KO	jsonPath($.name).find.is(Game-Mgvem), but actually found nothing
+REQUEST	3		Get all video games	1586415018678	1586415018685	OK	 
+REQUEST	1		Delete last posted game	1586415018995	1586415019005	OK	 
+REQUEST	2		Get last posted game	1586415019722	1586415019727	OK	 
+REQUEST	3		Post new game	1586415020694	1586415020701	OK	 
+REQUEST	1		Get last posted game	1586415021004	1586415021038	KO	jsonPath($.name).find.is(Game-DfUsS), but actually found nothing
+REQUEST	1		Get all video games	1586415021039	1586415021045	OK	 
+REQUEST	2		Delete last posted game	1586415021736	1586415021743	OK	 
+REQUEST	3		Get last posted game	1586415022691	1586415022697	OK	 
+REQUEST	1		Post new game	1586415023045	1586415023051	OK	 
+REQUEST	2		Get last posted game	1586415023731	1586415023752	KO	jsonPath($.name).find.is(Game-GPbvB), but actually found nothing
+REQUEST	2		Get all video games	1586415023753	1586415023760	OK	 
+REQUEST	3		Delete last posted game	1586415024705	1586415024710	OK	 
+REQUEST	1		Get last posted game	1586415025062	1586415025068	OK	 
+REQUEST	2		Post new game	1586415025764	1586415025771	OK	 
+REQUEST	3		Get last posted game	1586415026704	1586415026743	KO	jsonPath($.name).find.is(Game-dizJU), but actually found nothing
+REQUEST	3		Get all video games	1586415026746	1586415026759	OK	 
+REQUEST	1		Delete last posted game	1586415027073	1586415027082	OK	 

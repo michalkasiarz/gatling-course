@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ExtractDataFromResponse",
+  "simulationId": "extractdatafromresponse",
+  "start": 1586172665229,
+  "description": "",
+  "scenarios": ["Check JSON Path"],
+  "assertions": [
+
+  ]
+}
