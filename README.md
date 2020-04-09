@@ -11,6 +11,6 @@ Here are all of the exercises I've done as going through :link: [Gatling Fundame
 :ballot_box_with_check: Gatling Feeders  
 :ballot_box_with_check: Load Simulation Design  
 :ballot_box_with_check: Execution from the Command Line  
-:point_right: Putting it all Together - Complete Gatling Script from Scratch  
-:timer_clock:	Test Monitoring & Reporting  
-:timer_clock:	Gatling with Continious Integration Tools  
+:ballot_box_with_check: Putting it all Together - Complete Gatling Script from Scratch  
+:ballot_box_with_check: Test Monitoring & Reporting  
+:ballot_box_with_check: Gatling with Continious Integration Tools - Jenkins & Travis  
